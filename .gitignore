@@ -1,0 +1,11 @@
+.venv/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+*.egg-info/
+results/
+build/
+dist/
+.DS_Store

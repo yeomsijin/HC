@@ -1,0 +1,8 @@
+{
+  "persistence_probability": "p_X(u)=ell(u)/sum_v ell(v)",
+  "persistence_weight": "g(t)=t/(1+t)",
+  "sigma_b": 0.5,
+  "sigma_l": 0.5,
+  "tau": 0.29849871075184564,
+  "tau_calibration": "global median of positive absolute directed discrepancies"
+}

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite Homological Causality in Dynamical Systems."
+title: "HC: Homological Causality in Dynamical Systems"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Yeom
+    given-names: Sijin
+  - family-names: Jung
+    given-names: Jae-hun
+repository-code: "https://github.com/yeomsijin/HC"
+date-released: 2026-10-26

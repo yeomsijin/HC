@@ -1,0 +1,79 @@
+{
+  "title": "Homological Causality in Dynamical Systems",
+  "snapshot_date": "2026-10-26",
+  "pce": {
+    "repository": "https://github.com/yeomsijin/PCE",
+    "commit": "c8e1ce36fa531500437b664036ac395fa09b6cb8",
+    "module_sha256": {
+      "__init__.py": "68a9872b5a2fec62ddf111d0c84d7ee707683e73884f8ec5b2c79b63509154c3",
+      "__main__.py": "7038a0b329f579ce55343de8ce5f806a16e09f837f79e48723b0be4835e3c3c0",
+      "bandwidth.py": "a9732811abe8b13ede825f66b17c979427a9194ff79e4b264fbdf1c50c9b2d45",
+      "entropy.py": "77f1653c428aeea51a0e4de7eed98dbc177d6cc5190028408a255472a80fb726",
+      "geometry.py": "378d64c8f7b98cc19811f4970233e8cf5b490b71c33878cae386e92a7e20b819",
+      "h0_float64.py": "550432d3be8a1bb4c615c4082e3dfcb28720ae4a2bb5284453c8e50d4df40d6c",
+      "model.py": "613099f05fa06517ae3659ac64d60ed7be4d9cc054b4da63e0e803bedd6bdf35",
+      "own_own.py": "64df49bb5b7fbc3c1ceae931182840a6a66eac40c618593bf7d216fc5a4e8f7e",
+      "persistence.py": "6e8f8dc6c195b20ad544371500859e47d2665cf1fcdbe24a5db5324bbe7a441a",
+      "tc.py": "2a0408b3f3eb36b6453f26221f648405dea791147549da47a65db6f7c632a913"
+    }
+  },
+  "paper_experiments": {
+    "stationary_records": 273,
+    "embedding_displayed_cells": 360,
+    "embedding_seed_evaluations": 1080,
+    "switching_recordings": 6,
+    "switching_windows": 576,
+    "figures": 6
+  },
+  "reference_sha256": {
+    "reference/fig2_diagrams.npz": "4569654826a850c0a8bfeb21019bf6d3d11e926e2746627ea151b57888773be7",
+    "reference/fig2_metrics.npz": "4b65e4c521c30c5c4f9cb90448e214624f30fb3fac8c9a7f3d37e0b728c997a5",
+    "reference/fig2_original_settings.json": "715cabf4002296190569ec92c70dfa9c5420af1bb434772a3dd83ed325cf823b",
+    "reference/fig2_point_clouds.npz": "66fc494aa374f4d957c38cd3f69ff26b46621f03099a2fe553a665f5c5387442",
+    "reference/fig3_coupling.csv": "ef0d00e75210e0a649e102df1267bfff19bea7d7a104cac6471bdf014bc8d29a",
+    "reference/fig3_fast_slow.csv": "db21ee0884c06b919cdb9f7f69446196e76b16e56fa278c2ce7e7da80922706a",
+    "reference/fig3_symmetry.csv": "393eed911d08201469bc7c4f81335a0be7ffe78b4e0698046f928190a19d8886",
+    "reference/fig4_geometry.npz": "e9d852f55c7135e29c4d4a6857f4d3b379b732dfbf2cf47096ecee7e84bdb873",
+    "reference/fig5_mean_scores.csv": "13b81db30f3081f4edddae1ac0ffd29a4bdda7d619fd9fbd226ef3bdffb3cdb0",
+    "reference/fig5_scores.csv": "4eafcce73e7b86dcf08afad0f3b71620d0ff98f4b789324a73863d33267e4ee7",
+    "reference/fig5_window.csv": "869b0e204459b077e557e131fff9e779064052fa9d7ee7581025b4fa4c67b569",
+    "reference/fig6_cycles.json": "f846c2ce9ddaa03901438ac89485370997393a5e86c04878c3ff319815541d69",
+    "reference/fig6_snapshots.npz": "6226e6d21bb2d1e5a016d3a587f3de700b7eee6d0ddf868e052d0a01391724ae",
+    "reference/fig6_windows.csv": "a18fb7f3bd5fb8ebeb386209c9b907a1da724d366576d4e1d27f1d6e5d0b8118",
+    "configs/paper.json": "25776c5ab9402a0a20fff92c96b0f4f4593e99afc4c43e5401148c621f242164",
+    "configs/two_loops.json": "907b457af5d0746b1db28c631e317fe0fa30921f0f2b9b61107177e8fe4383f6",
+    "tests/reference.npz": "6ed1efde81f3ab17501951dc6586b2157a41b545e48e240a9d3d593b120bcad8",
+    "tests/test_reproduction.py": "c382e08f570824f2b1691c25d01913d1a65b5ae0d1377d6c0f6780f8e9ca1945"
+  },
+  "validation": {
+    "python": "3.9.18",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "packages": {
+      "numpy": "2.0.2",
+      "scipy": "1.13.1",
+      "ripser": "0.6.15",
+      "numba": "0.60.0",
+      "pandas": "2.3.1",
+      "matplotlib": "3.9.4",
+      "pce-research": "0.1.0"
+    },
+    "stationary_state_bitwise_equal_shape": [
+      32768,
+      9
+    ],
+    "stationary_full_record_and_all512_query_scores_match": true,
+    "switching_state_bitwise_equal_shape": [
+      57344,
+      6
+    ],
+    "whole_record_switching_kde_cdf_bitwise_equal": true,
+    "switching_first128_query_scores_and_expansion_match": true,
+    "all_six_snapshot_clouds_and_H0_H1_diagrams_match": true,
+    "two_loop_clouds_and_diagrams_bitwise_equal": true,
+    "regression_input_cases": 7,
+    "unit_tests_passed": 5,
+    "all_six_figures_built_and_visually_checked": true,
+    "full_parameter_sweeps_rerun_for_release": false,
+    "embedding_m3_tau1_full512_query_scores_match": true
+  }
+}

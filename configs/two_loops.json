@@ -1,0 +1,32 @@
+{
+  "reference": {
+    "noise_micro_n": 10,
+    "micro_noise": 0.072,
+    "diffuse_n": 15
+  },
+  "clean": {
+    "large_thickness": 0.04,
+    "small_thickness": 0.05987,
+    "thickness_layers": 23,
+    "thickness_points": 13
+  },
+  "large loop": {
+    "large_thickness": 0.04673,
+    "thickness_layers": 20,
+    "thickness_points": 30,
+    "off_micro_n": 0,
+    "diffuse_n": 0
+  },
+  "small loop": {
+    "small_thickness": 0.0193,
+    "thickness_layers": 25,
+    "thickness_points": 21,
+    "off_micro_n": 0,
+    "diffuse_n": 0
+  },
+  "noise": {
+    "noise_micro_n": 10,
+    "micro_noise": 0.03057,
+    "diffuse_n": 20
+  }
+}

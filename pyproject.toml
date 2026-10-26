@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "homological-causality"
+version = "0.1.0"
+description = "Reproduction code for Homological Causality in Dynamical Systems"
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+dependencies = [
+    "pce-research @ git+https://github.com/yeomsijin/PCE.git@c8e1ce36fa531500437b664036ac395fa09b6cb8",
+    "numba==0.60.0",
+    "pandas==2.3.1",
+    "matplotlib==3.9.4",
+]
+
+[project.scripts]
+hc = "hc.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

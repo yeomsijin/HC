@@ -1,0 +1,27 @@
+\documentclass[border={12pt 4pt 4pt 4pt}]{standalone}
+\usepackage{graphicx,amsmath,newtxtext,newtxmath}
+\begin{document}
+\begin{minipage}{3.4in}
+
+\centering
+{\small\raggedright (a) Directional scores and local expansion\par}
+\includegraphics[width=\linewidth]{assets/Fig6_direction_scores.pdf}
+\par\smallskip
+{\small\raggedright (b) Neighborhoods and persistence diagrams\par}
+\makebox[.085\linewidth]{}%
+\begin{minipage}{.915\linewidth}
+\noindent{\scriptsize\makebox[\linewidth][l]{\makebox[0pt][l]{\hspace*{0.12083161\linewidth}\makebox[0pt][c]{$R_X^k(t)$}}\makebox[0pt][l]{\hspace*{0.32404919\linewidth}\makebox[0pt][c]{$R_Y^k(t)$}}\makebox[0pt][l]{\hspace*{0.64000000\linewidth}\makebox[0pt][c]{$D_X$}}\makebox[0pt][l]{\hspace*{0.84000000\linewidth}\makebox[0pt][c]{$D_Y$}}}}\par
+\end{minipage}\par
+\begin{tabular}{@{}c@{}c@{}}
+\makebox[.085\linewidth][c]{\hspace*{-8pt}\raisebox{-.5\height}{\shortstack{\scriptsize A\\\scriptsize $X\to Y$}}} &
+\raisebox{-.5\height}{\includegraphics[width=.915\linewidth]{assets/Fig6_snapshot_A.pdf}}\\[1pt]
+\makebox[.085\linewidth][c]{\hspace*{-8pt}\raisebox{-.5\height}{\shortstack{\scriptsize B\\\scriptsize $Y\to X$}}} &
+\raisebox{-.5\height}{\includegraphics[width=.915\linewidth]{assets/Fig6_snapshot_B.pdf}}\\[1pt]
+\makebox[.085\linewidth][c]{\hspace*{-8pt}\raisebox{-.5\height}{\shortstack{\scriptsize C\\\scriptsize $X\to Y$}}} &
+\raisebox{-.5\height}{\includegraphics[width=.915\linewidth]{assets/Fig6_snapshot_C.pdf}}
+\end{tabular}
+\par\vspace{4pt}{\footnotesize FIG. 6. Tracking causal reversals. (a) Directional scores and TC log expansions. Positive (negative) scores support $X\to Y$ ($Y\to X$); gray shading marks windows containing both directions. (b) Own neighborhoods and PDs at selected times from A to C in one recording ($H_0$, circles; $H_1$, diamonds). Black denotes the response and gray the driver.}
+
+
+\end{minipage}
+\end{document}

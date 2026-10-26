@@ -1,0 +1,36 @@
+\documentclass[border={12pt 4pt 4pt 4pt}]{standalone}
+\usepackage{graphicx,amsmath,newtxtext,newtxmath}
+\begin{document}
+\begin{minipage}{3.4in}
+
+\centering
+\begin{minipage}{\linewidth}
+{\small\raggedright (a) Directional scores across embedding parameters\par\smallskip}
+\makebox[.04\linewidth]{}%
+\begin{minipage}{.96\linewidth}
+{\scriptsize\hspace*{.08\linewidth}\makebox[.23\linewidth][c]{$S_{\mathrm{HC}}$ ($H_0$)}\makebox[.23\linewidth][c]{$S_{\mathrm{HC}}$ ($H_1$)}\makebox[.23\linewidth][c]{$S_{\mathrm{TC}}$}\makebox[.23\linewidth][c]{$S_{\mathrm{CCM}}$}}\par
+\end{minipage}\par\smallskip
+\begin{tabular}{@{}c@{}c@{}}
+\makebox[.04\linewidth][c]{\raisebox{\dimexpr-.5\height+.02787\linewidth\relax}{\rotatebox{90}{\scriptsize Synchronized}}} &
+\raisebox{-.5\height}{\includegraphics[width=.96\linewidth]{assets/Fig5_embedding_synchronized.pdf}}\\[2pt]
+\makebox[.04\linewidth][c]{\raisebox{\dimexpr-.5\height+.02787\linewidth\relax}{\rotatebox{90}{\scriptsize Symmetry}}} &
+\raisebox{-.5\height}{\includegraphics[width=.96\linewidth]{assets/Fig5_embedding_symmetry.pdf}}\\[2pt]
+\makebox[.04\linewidth][c]{\raisebox{\dimexpr-.5\height+.02787\linewidth\relax}{\rotatebox{90}{\scriptsize Fast--slow}}} &
+\raisebox{-.5\height}{\includegraphics[width=.96\linewidth]{assets/Fig5_embedding_fast_slow.pdf}}
+\end{tabular}\par
+\includegraphics[width=\linewidth]{assets/Fig5_embedding_colorbar.pdf}\par\smallskip
+{\small\raggedright (b) HC scores versus embedding window\par\smallskip}
+\makebox[.04\linewidth]{}%
+\begin{minipage}{.96\linewidth}
+{\scriptsize\hspace*{.09\linewidth}\makebox[.43\linewidth][c]{$S_{\mathrm{HC}}$ ($H_0$)}\makebox[.43\linewidth][c]{$S_{\mathrm{HC}}$ ($H_1$)}}\par
+\end{minipage}\par
+\begin{tabular}{@{}c@{}c@{}}
+\makebox[.04\linewidth]{} &
+\raisebox{-.5\height}{\includegraphics[width=.96\linewidth]{assets/Fig5_window_scores.pdf}}
+\end{tabular}
+\end{minipage}
+\par\vspace{4pt}{\footnotesize FIG. 5. Embedding sensitivity. (a) Directional scores for synchronized, symmetric, and fast--slow systems; red favors the true direction $X\to Y$. (b) Fast--slow $S_{\mathrm{HC}}$ versus $T=(m-1)\tau\Delta t$, with $\Delta t=0.02$. Each curve fixes $m$ and varies $\tau$; grayscale indicates $m$. Solid and dashed curves in the fast--slow row of (a) match the vertical guides in (b) at $T=0.2$ and $T=0.8$, respectively.}
+
+
+\end{minipage}
+\end{document}
